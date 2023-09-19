@@ -19,6 +19,7 @@ h1{
     left: 40px;
     top: 0px;
     font-size: 60px;
+    font-family: 'Delius Unicase', cursive;
 
 }
 
@@ -369,3 +370,46 @@ h3{
     top: 620px;
     left: 1300px;
 }
+
+#social{
+    position: fixed;
+    height: 350px;
+    width: 50px;
+    z-index: 9999;
+    left: 1435px;
+    top: 150px;
+}
+
+#inside_social{
+    position: sticky;
+    height: 250px;
+    top: 70px;
+}
+
+#whatsapp{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: px;
+    border-radius: 11px;
+    border: 3px;
+    border: 3px solid #000000
+}
+#fb{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 88px;
+    border-radius: 11px;
+    border: 3px;
+    border: 3px solid #000000
+}
+#twitter{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: 176px;
+    border-radius: 11px;
+    border: 3px solid #000000
+}
+
