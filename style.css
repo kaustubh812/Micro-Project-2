@@ -126,7 +126,7 @@ h1{
 }
 
 #layout{
-    position: relative;
+    position: absolute;
     width: 1400px;
     height: 1695px;
     top: 100px;
@@ -372,18 +372,18 @@ h3{
 }
 
 #social{
-    position: fixed;
+    position: sticky;
     height: 350px;
     width: 50px;
+    margin-top: 20vh;
     z-index: 9999;
     left: 1435px;
-    top: 150px;
+    top: 120px;
 }
 
 #inside_social{
-    position: sticky;
+    position: relative;
     height: 250px;
-    top: 70px;
 }
 
 #whatsapp{
